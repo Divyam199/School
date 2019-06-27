@@ -10,7 +10,7 @@ public class Student {
 
     }
 
-    //parameterized constructor
+    //parameterized constructor to set values
     public Student(String name, int rollNo) {
         this.name = name;
         this.rollNo = rollNo;
