@@ -10,6 +10,9 @@ public class Student {
 
     }
 
+    public void testMethod(){
+
+    }
     //parameterized constructor to set values
     public Student(String name, int rollNo) {
         this.name = name;
