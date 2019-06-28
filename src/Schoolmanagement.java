@@ -14,6 +14,7 @@ public class Schoolmanagement {
         s1= new Student();
         s2 = new Student();
         s3  = s1;
+        // testss
         s3 = new Student("abc",2);
 
         s1.setName("a");
