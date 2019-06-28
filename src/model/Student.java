@@ -9,12 +9,7 @@ public class Student {
     public Student() {
 
     }
-    
-    //comment added by ojasvi
 
-    public void testMethod(){
-
-    }
     //parameterized constructor to set values
     public Student(String name, int rollNo) {
         this.name = name;
@@ -28,8 +23,6 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
-
-    private int[] marks;
 
     public String getName() {
         return name;
@@ -47,12 +40,5 @@ public class Student {
         this.rollNo = rollNo;
     }
 
-    public int[] getMarks() {
-        return marks;
-    }
-
-    public void setMarks(int[] marks) {
-        this.marks = marks;
-    }
 }
 
