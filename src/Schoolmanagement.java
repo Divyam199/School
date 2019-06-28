@@ -27,7 +27,7 @@ public class Schoolmanagement {
 
     }
 
-    public void menu() {
+    public void menu() {//menu
         int loops = 0;
         while (loops == 0) {
 
