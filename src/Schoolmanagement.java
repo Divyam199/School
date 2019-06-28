@@ -5,12 +5,16 @@ import java.util.Scanner;
 public class Schoolmanagement {
 
     public static void main(String[] args) {
+        Schoolmanagement sm = new Schoolmanagement();
+        sm.menu();
+
+       // about reference variables and object
         Student s1, s2, s3;
 
         s1= new Student();
         s2 = new Student();
         s3  = s1;
-        s3 = new Student("abc", 2);
+        s3 = new Student("abc",2);
 
         s1.setName("a");
         s2.setName("b");
@@ -22,6 +26,8 @@ public class Schoolmanagement {
         System.out.println(s2.getName());
         System.out.println(s3.getName());
         System.out.println(s3.getRollNo());
+
+
     }
 
     public void menu() {
@@ -29,7 +35,7 @@ public class Schoolmanagement {
         while (a == 0) {
             Scanner scan = new Scanner(System.in);
 
-            System.out.println("Press 1 for Menu");
+            System.out.println("Press 1 for Menu or 0 to Exit");
 
             b = scan.nextInt();
 
