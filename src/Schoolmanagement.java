@@ -6,7 +6,6 @@ public class Schoolmanagement {
 
     public static void main(String[] args) {
         Schoolmanagement sm = new Schoolmanagement();
-        sm.menu();
 
        // about reference variables and object
         Student s1, s2, s3;
@@ -14,12 +13,10 @@ public class Schoolmanagement {
         s1= new Student();
         s2 = new Student();
         s3  = s1;
-        // testss
         s3 = new Student("abc",2);
 
         s1.setName("a");
         s2.setName("b");
-        s3.setName("abcd");
 
         s3 = new Student("a2", 2);
 
